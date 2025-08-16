@@ -1,184 +1,130 @@
-
-# 🌟 **TDS Project 2: Data Analyst Agent** — *AI-Powered Data Sidekick*
-
-> **A smart, interactive, and beautiful way to analyze your data — powered by Google Generative AI & cutting-edge Python tools.**
-> **Repo:** [📂 View on GitHub](https://github.com/23f1000805/tds-project-2)
+# ⚡ Data Analyst Agent 2.0 — Your AI-Powered Data Companion  
+> Smarter, faster, and more intuitive analysis of your datasets using **Generative AI + Python magic.**  
+> Repository: *Insert your GitHub repo link here*
 
 ---
 
-## 📌 **Overview**
+## 📌 What Is This?
+Meet **Data Analyst Agent 2.0** — an AI-driven assistant that eliminates tedious data crunching.  
+Upload your dataset + queries, and instantly get:  
+✅ Visual reports  
+✅ AI-generated insights  
+✅ Automated workflows  
 
-The **TDS Data Analyst Agent** transforms raw data into **actionable insights** in minutes.
-Upload your dataset + questions, and get:
-
-* 📊 **Interactive Visualizations**
-* 🧠 **AI-Driven Insights**
-* ⚡ **Automated Analysis Workflows**
-
-Perfect for **business analysts, researchers, and data enthusiasts** who want **fast, accurate, and beautiful results** without manual crunching.
-
----
-
-## ✨ **Features at a Glance**
-
-| Feature                     | Description                                        |
-| --------------------------- | -------------------------------------------------- |
-| 🔍 **Intelligent Analysis** | Understands your data using Google's Generative AI |
-| 📈 **Dynamic Charts**       | Visualizes data with Matplotlib & Seaborn          |
-| 🌐 **Web Scraping**         | Pulls data from URLs in seconds                    |
-| 📁 **Multi-Format Support** | Works with CSV, Excel, JSON, Parquet, TXT          |
-| 🔄 **Batch Processing**     | Answers multiple questions in one go               |
-| 🎨 **Modern UI**            | Clean, responsive, and beginner-friendly           |
-| ⚡ **Real-Time Results**     | Progress tracking with fast computations           |
+Perfect for:  
+- Analysts 🧾  
+- Researchers 🔬  
+- Startups & Businesses 📈  
+- Anyone who loves turning raw data into knowledge  
 
 ---
 
-## 🚀 **Quick Start**
+## ✨ Key Highlights  
 
-### **1️⃣ Clone the Repository**
-
-```bash
-git clone https://github.com/23f1000805/tds-project-2.git
-cd tds-project-2
-```
-
-### **2️⃣ Install Dependencies**
-
-```bash
-pip install -r requirements.txt
-```
-
-### **3️⃣ Set Environment Variables**
-
-Create a `.env` file:
-
-```env
-GOOGLE_API_KEY=your_google_generative_ai_api_key
-LLM_TIMEOUT_SECONDS=150
-```
-
-### **4️⃣ Run the App**
-
-```bash
-python app.py
-```
-
-Then open **[http://localhost:8000](http://localhost:8000)** in your browser.
+| Feature                  | Why It’s Awesome 🚀 |
+|---------------------------|----------------------|
+| 🤖 AI-Powered Insights    | Uses Google’s Generative AI to “understand” your data |
+| 📊 Rich Visualizations    | Generates plots with **Seaborn & Matplotlib** |
+| 🌍 Web Scraper Mode       | Fetch live data directly from URLs |
+| 📂 Multi-Format Friendly  | Accepts CSV, Excel, JSON, Parquet, or TXT |
+| 🔄 Ask Many at Once       | Batch processing for multiple questions |
+| 🖥️ Simple-to-Use Interface | Beginner friendly, no steep learning curve |
+| ⚡ Super-Fast Execution   | Optimized for speed + real-time feedback |
 
 ---
 
-## 📖 **How to Use**
+## 🚀 Getting Started  
 
-### **Step 1: Write Your Questions**
+### 1️⃣ Clone the Repo  - git clone https://github.com/your-username/data-analyst-agent.git
+cd data-analyst-agent
 
-Create a `.txt` file:
+### 2️⃣ Install Requirements  - pip install -r requirements.txt
 
-```
-What are the top-selling products?
-Find correlation between variable X and Y
-Show sales trends over the last 6 months
-```
+### 3️⃣ Configure API Keys  
+Create a `.env` file inside the root folder:  
+GEMINI_API_KEY=your_google_api_key
+LLM_TIMEOUT_SECONDS=240
 
-### **Step 2: Upload Your Data**
 
-* **Required:** Questions file (`.txt`)
-* **Optional:** Dataset in CSV/Excel/JSON/Parquet/TXT
+### 4️⃣ Start the Application  - python -m uvicorn app:app --reload
 
-### **Step 3: Get Your Insights**
+Now open [**http://localhost:8000/**](http://localhost:8000/) in your browser 🌐  
 
-* 🧮 **Processed by AI**
-* 📊 **Visualized beautifully**
-* 💡 **Actionable recommendations generated**
+## 🧑‍💻 How It Works  
 
----
+1. **Write Your Questions**  
+   Create a `.txt` file with queries like:  What’s the revenue growth month-over-month?, Find correlation between Age and Income, Show most profitable products...etc
 
-## 🛠 **Tech Stack**
+2. **Upload Dataset + Questions File**  
+- Dataset (optional) → CSV, Excel, JSON, Parquet, or TXT  
+- Questions file (required) → Plain text  
 
-**Backend**
-
-* FastAPI 🚀 (Ultra-fast web framework)
-* LangChain 🧠 (LLM orchestration)
-* Google Generative AI ✨ (Smart insights)
-* Pandas + NumPy 📊 (Data manipulation)
-* Matplotlib + Seaborn 🎨 (Visualizations)
-
-**Frontend**
-
-* HTML5, CSS3, JavaScript
-* Bootstrap-inspired styling for a professional look
+3. **Voilà!**  
+- AI processes the queries  
+- Generates insights + summaries  
+- Builds neat visualizations  
 
 ---
 
-## 🔧 **API Endpoints**
+## 🛠 Tech Behind the Scenes  
 
-| Method | Endpoint   | Description                |
-| ------ | ---------- | -------------------------- |
-| `GET`  | `/`        | Main web interface         |
-| `POST` | `/api` | Process questions + data   |
-| `GET` | `/summary`  | Advanced Diagnosis of app |
+### Backend  
+- FastAPI ⚡ → High-performance web server  
+- LangChain 🧠 → Orchestrates LLM interactions  
+- Google Generative AI ✨ → Core AI engine  
+- Pandas + NumPy 📊 → Data wrangling made smooth  
+- Seaborn + Matplotlib 🎨 → Clean, insightful charts  
 
----
-
-## 📂 **Supported Data Formats**
-
-| Format  | Extensions      |
-| ------- | --------------- |
-| CSV     | `.csv`          |
-| Excel   | `.xlsx`, `.xls` |
-| JSON    | `.json`         |
-| Parquet | `.parquet`      |
-| Text    | `.txt`          |
+### Frontend  
+- HTML5 + CSS + JavaScript  
+- Bootstrap-inspired modern UI  
 
 ---
 
-## 🎯 **Use Cases**
+## 🔧 API Blueprint  
 
-* **Business Intelligence** – Sales trends, customer insights
-* **Research** – Statistical summaries, hypothesis testing
-* **Data Science** – EDA, feature analysis, anomaly detection
-
----
-
-## 🔒 **Security**
-
-* Local data processing (no cloud storage)
-* Environment variable protection for API keys
-* Configurable CORS for production environments
+| Method | Endpoint  | Purpose |
+|--------|-----------|----------|
+| `GET`  | `/`       | Access web app |
+| `POST` | `/api`    | Submit dataset + questions |
+| `GET`  | `/summary`| App diagnostics & summaries |
 
 ---
 
-## 🚀 **Deployment Options**
+## 📂 File Support  
 
-* **Local** → `python app.py`
-* **Production** → `gunicorn app:app -w 4 -k uvicorn.workers.UvicornWorker`
-* **Docker**
-
-```dockerfile
-FROM python:3.9-slim
-WORKDIR /app
-COPY requirements.txt .
-RUN pip install -r requirements.txt
-COPY . .
-EXPOSE 8000
-CMD ["python", "app.py"]
-```
+| Format | Extensions |
+|--------|------------|
+| CSV    | `.csv`     |
+| Excel  | `.xlsx`, `.xls` |
+| JSON   | `.json`    |
+| Parquet| `.parquet` |
+| Text   | `.txt`     |
 
 ---
 
-## 🤝 **Contributing**
+## 🎯 Where Can You Use This?  
 
-We welcome PRs!
-
-1. Fork the repo
-2. Create a branch: `git checkout -b feature-name`
-3. Commit + push
-4. Submit PR 🚀
+- 📈 Business Strategy – Sales, KPIs, forecasts  
+- 🔬 Research – Data exploration, hypothesis validation  
+- 🤖 Data Science – Quick EDA, anomaly detection  
+- 📊 Reporting – Automated dashboards  
 
 ---
 
-## 📜 **License**
-
-Licensed under **MIT** — Free to use, modify, and share.
+## 🔒 Security First  
+- ✅ No cloud storage → All data stays local  
+- ✅ API keys kept safe via `.env`  
+- ✅ Configurable CORS policy for production use  
 
 ---
 
+## 📜 License  
+
+Licensed under **MIT** – free for personal & commercial use. 
+
+
+
+
+
+  
