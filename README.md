@@ -1,4 +1,4 @@
-# ⚡ Data Analyst Agent 2.0 — Your AI-Powered Data Companion  
+# ⚡ Data Analyst Agent — Your AI-Powered Data Companion  
 > Smarter, faster, and more intuitive analysis of your datasets using **Generative AI + Python magic.**  
 > Repository: *Insert your GitHub repo link here*
 
